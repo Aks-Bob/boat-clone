@@ -1,9 +1,15 @@
 import React from 'react';
+import Container from '@mui/material/Container';
+
 import './Navigation.scss';
 
 const Navigation = ()=>{
     return(
-        <h1>Hello World</h1>
+        <div className='boat-navbar-section'>
+            <Container>
+                <nav
+            </Container>
+        </div>
     )
 }
 export default Navigation;

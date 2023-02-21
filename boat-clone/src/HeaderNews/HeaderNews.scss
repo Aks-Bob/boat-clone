@@ -1,0 +1,31 @@
+@import "../css-config/mixins.scss";
+
+.anounsement-bar{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    padding-top: 7px;
+    padding-bottom: 8px;
+
+    @include sm{
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: #f12020;
+    }
+
+    @include md{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    p{
+        color: #ffffff;
+        font-size: 14px;
+        line-height: 23px;
+        font-weight: 400;
+    }
+
+}
